@@ -65,27 +65,25 @@ sudo ufw allow ssh
 sudo ufw status verbose
 ```
 
-> 
 > Note: Be careful when configuring firewall rules, as improperly configured rules can lock you out of your own system.
-{.is-info}
-
+> {.is-info}
 
 ## 4\. Install apps:
 
 CachyOS comes pre-installed with many useful apps, but you may want to install additional ones to match your workflow.
 Here are some popular apps you may consider installing:
 
-*   GIMP (image processor)
-*   VLC (media player)
-*   Stacer (system monitor)
-*   Skype, Telegram, Discord, Signal (messenger apps)
-*   Steam (for gaming)
-*   Spotify (music)
-*   MailSpring (email client)
-*   Super Productivity (to-do list manager and Pomodoro timer)
-*   Visual Studio Code (code editor)
-*   Blender (3D software)
-*   Krita (digital painting)
+- GIMP (image processor)
+- VLC (media player)
+- Stacer (system monitor)
+- Skype, Telegram, Discord, Signal (messenger apps)
+- Steam (for gaming)
+- Spotify (music)
+- MailSpring (email client)
+- Super Productivity (to-do list manager and Pomodoro timer)
+- Visual Studio Code (code editor)
+- Blender (3D software)
+- Krita (digital painting)
 
 You can easily install these apps using the command line. For example, `paru -S vlc mailspring spotify gimp`. If you get an error message, try using a different command or check the name of the app in the database.
 
@@ -95,4 +93,4 @@ For some apps like Visual Studio Code, the global menu may not work or may be at
 
 ## 6\. Set up Bluetooth headphones:
 
-To auto-connect your headphones, follow the steps in the Arch wiki guide: [https://wiki.archlinux.org/title/bluetooth\_headset#Headset\_via\_Bluez5/PulseAudio](https://wiki.archlinux.org/title/bluetooth_headset#Headset_via_Bluez5/PulseAudio). If Pulseaudio doesn't work, you may need to manually reconnect the headphones each time you restart your computer.
+To auto-connect your headphones, follow the steps in the Arch wiki guide: [https://wiki.archlinux.org/title/bluetooth_headset#Headset_via_Bluez5/PulseAudio](https://wiki.archlinux.org/title/bluetooth_headset#Headset_via_Bluez5/PulseAudio). If Pulseaudio doesn't work, you may need to manually reconnect the headphones each time you restart your computer.

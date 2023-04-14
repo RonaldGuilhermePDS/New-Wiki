@@ -20,7 +20,6 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - Offline installation keyring issue got fixed
 - Refind: Use linux-cachyos-lts as defaullt. Current 6.2 seems not to work well together with refind
 
-
 # 23.03
 
 **New Features:**
@@ -46,6 +45,7 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - You can download the update from our mirrors on SourceForge.
 
 # 23.02
+
 **New Features:**
 
 - The cachyos-community-v3 repo has been added
@@ -60,7 +60,6 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - cachyos-rate-mirrors has a longer fetch-mirrors-timeout
 - Github has been added to the hosts to avoid mirrorlist issues
 - Boot entries for BIOS have been updated in syslinux
-
 
 # 23.01
 
@@ -82,7 +81,6 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - The ranked cachyos mirrors gets now correctly copied to the install target
 - power-profile-daemon don't gets enabled anymore as default
 
-
 # 22.12
 
 **Features:**
@@ -97,14 +95,12 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - The Kofuku Desktop Enviroment got removed
 - extra ISO with llvm 15 included to provide support for newer AMD Cards
 
-
 **Bug-fixes:**
 
 - Calamares got fixed when using GNOME as ISO
 - zfshostid does now work proper for the offline and online installation
 - Add "kms" hook to the initcpiocfg module to follow archlinux defaults
 - And more ISO fixes
-
 
 # 22.11
 
@@ -120,14 +116,12 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - Common package upgrades (mesa, kernel, ...)
 - Replace systemd-network with networkmanager
 
-
 **Bug-fixes:**
 
 - qemu-quest-agent.service got removed from the ISO
 - copytoram got completly disabled, it breaks the offline installation
 - mkinitcpio.conf got updated
 - And more ISO fixes
-
 
 # 22.10
 
@@ -149,7 +143,6 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - Added a fallback bootmode, which does not set any modeset (nomodeset)
 - And more ISO fixes
 
-
 # 22.09
 
 **Features:**
@@ -167,7 +160,6 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - netinstall packages has been updated and got some fixes
 - OpenBox installation has been fixed
 - usual translation fixes
-
 
 # 22.07
 
@@ -190,7 +182,7 @@ dateCreated: 2023-01-21T19:28:01.996Z
 - btrfs swap luksencryption got fixed
 - usual translation fixes
 
- # 22.06
+# 22.06
 
 Following known bugs has been fixed:
 
@@ -228,7 +220,6 @@ Following options you can select for a kernel compile:
 - Enable or disable nf cone
 - Enable LTO (Full, Thin, No)
 
-
 # 22.05
 
 CachyOS was founded a year ago. After almost one year of development, we are really proud to announce our first Stable Release of GUI Installer.
@@ -244,7 +235,3 @@ https://forum.cachyos.org/d/34-cachyos-gui-installer-stable-release
 Download can be found here:
 https://mirror.cachyos.org/ISO/kde/220522/
 https://sourceforge.net/projects/cachyos-arch/
-
-
-
-

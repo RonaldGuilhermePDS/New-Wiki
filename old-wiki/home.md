@@ -14,7 +14,7 @@ CachyOS is an Arch Linux-based distribution that aims to provide easy installati
 
 ## How does CachyOS improve the performance?
 
-Improved performance is achieved by complex means. But the main ones are our repository with optimized packages and our own default kernel. Our repository contains packages built optimized for today's generation of x86_64-v3 processor microarchitectures,  which comes with a notable performance boost. It depends on your CPU if it does support that, but you don't need to worry about it - the installer will detect the correct supported architecture and adjust to your system.
+Improved performance is achieved by complex means. But the main ones are our repository with optimized packages and our own default kernel. Our repository contains packages built optimized for today's generation of x86_64-v3 processor microarchitectures, which comes with a notable performance boost. It depends on your CPU if it does support that, but you don't need to worry about it - the installer will detect the correct supported architecture and adjust to your system.
 
 We also provide an optimized custom linux-cachyos kernel with the various schedulers supported by the CachyOS team (sir_lucjan and ptr1337). You can get this kernel from our repository compiled for x86_64-v3 architecture and LLVM-LTO support or build it yourself with our cachyos-kernel-manager (see https://wiki.cachyos.org/en/home/kernel-manager).
 
@@ -50,7 +50,7 @@ You can select from the following desktop environments (DEs) or window managers 
 - LXQT - The Lightweight Qt Desktop Environment.
 - bspwm is a tiling window manager that represents windows as the leaves of a full binary tree. bspwm supports multiple monitors and is configured and controlled through messages
 - Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly
-- Hyprland is a dynamic tiling Wayland compositor that doesn't sacrifice on its looks. 
+- Hyprland is a dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 
 ## Security
 
