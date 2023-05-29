@@ -1,0 +1,58 @@
+---
+import { Icon } from 'astro-iconify'
+---
+
+<nav class="z-50 sticky top-0 bg-black border-zinc-700 border-b-2 text-zinc-300 py-3 px-16 md:px-16">
+  <span class="-space-x-12 -ml-12">
+    <img src="/favicon.svg" alt="logo" class="mr-14 inline-block h-9 transition-all" />
+    <!-- change a to spam and remove href after resolve redirect to the correct page -->
+    <a href="/docs/home" class="text-xl font-bold align-middle hover:text-white">CachyOS - Wiki</a>
+    <button id="mobile-search" aria-label="Search">
+      <Icon name="mdi:search" class="inline-block md:hidden w-6 h-6 text-zinc-300 peer-focus:text-zinc-100 mt-1" />
+    </button>
+  </span>
+  <!-- need solve seach function -->
+  <span class="max-md:!mx-[5%] max-md:absolute max-md:left-0 max-md:mt-8 max-md:w-[90%] max-md:bg-black max-md:rounded-lg max-md:shadow hidden md:flex md:space-x-4 flex-row-reverse md:-space-y-10 justify-center">
+    <Icon name="mdi:close" id="mobile-search-close" class="cursor-pointer md:hidden w-8 h-8 md:w-6 md:h-6 text-zinc-400 peer-focus:text-zinc-100 md:mr-1" />
+    <input id="search" type="text" class="peer bg-zinc-800 rounded-full md:w-96 focus:outline-none px-4 py-2 text-lg" placeholder="Search...">
+    <Icon name="mdi:search" class="w-8 h-8 md:w-6 md:h-10 text-zinc-400 peer-focus:text-zinc-100 md:mr-1" />
+    <div id="results" class="peer-placeholder-shown:hidden empty:hidden focus:block absolute top-16 max-md:-mr-2 w-full md:w-72 bg-zinc-800 border-2 border-zinc-700 rounded-lg overflow-y-auto max-h-96 md:max-h-72"></div>
+  </span>
+</nav>
+
+<script is:inline>
+  document.querySelector('#mobile-search')?.addEventListener('click', () => {
+    document.querySelector('#search')?.parentElement.classList.toggle('hidden')
+    document.querySelector('#search')?.parentElement.classList.toggle('flex')
+  })
+
+  document.querySelector('#mobile-search-close')?.addEventListener('click', () => {
+    document.querySelector('#search')?.parentElement.classList.add('hidden')
+    document.querySelector('#search')?.parentElement.classList.remove('flex')
+  })
+
+  document.querySelector('#search')?.addEventListener('input', async (e) => {
+    // only load the pagefind script once
+    if (e.target.dataset.loaded !== 'true') {
+      e.target.dataset.loaded = 'true'
+      // load the pagefind script
+      window.pagefind = await import("/pagefind/pagefind.js");
+    }
+
+    // search the index using the input value
+    const search = await window.pagefind.search(e.target.value)
+
+    // clear the old results
+    document.querySelector('#results').innerHTML = ''
+
+    // add the new results
+    for (const result of search.results) {
+      const data = await result.data()
+      document.querySelector('#results').innerHTML += `
+        <a href="${data.url}" class="block px-4 py-2 hover:bg-zinc-700">
+          <h3 class="font-bold">${data.meta.title}</h3>
+          <p>${data.excerpt}</p>
+        </a>`
+    }
+  })
+</script>

@@ -3,7 +3,7 @@ title: CachyOS - Gaming
 description: It covers essential package installation, Steam gaming with Proton, various Proton version options, Lutris as a central hub for all games, and script installers for popular games like League of Legends.
 published: 1
 date: 2023-02-20T19:51:52.047Z
-tags:
+tags: ''
 editor: markdown
 dateCreated: 2023-01-16T19:09:36.842Z
 ---
@@ -36,10 +36,10 @@ For Steam users, playing games on CachyOS is a breeze! Simply open Steam and sel
 
 Don't worry, Proton is not complicated at all! In just a few clicks, you can have it set up and ready to use. Check out the screenshots below for a step-by-step guide.
 
-![screenshot_20230116_212054.png](/screenshot_20230116_212054.png)
-![screenshot_20230116_212256.png](/screenshot_20230116_212256.png)
-![screenshot_20230116_212402.png](/screenshot_20230116_212402.png)
-![screenshot_20230116_212343.png](/screenshot_20230116_212343.png)
+![screenshot_20230116_212054.png](/src/content/docs/Images/screenshot_20230116_212054.png)
+![screenshot_20230116_212256.png](/src/content/docs/Images/screenshot_20230116_212256.png)
+![screenshot_20230116_212402.png](/src/content/docs/Images/screenshot_20230116_212402.png)
+![screenshot_20230116_212343.png](/src/content/docs/Images/screenshot_20230116_212343.png)
 
 You can use Proton to play your Windows games on Linux.
 

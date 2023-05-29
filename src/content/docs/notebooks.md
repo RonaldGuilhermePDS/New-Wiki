@@ -1,6 +1,6 @@
 ---
 title: Laptop with Dual GPU Setup Guide
-description:
+description: ''
 published: 1
 date: 2023-03-06T13:58:47.627Z
 tags: laptop, notebook, nvidia

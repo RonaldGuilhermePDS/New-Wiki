@@ -1,6 +1,6 @@
 ---
 title: How does CachyOS improve the performance?
-description:
+description: ''
 published: 1
 date: 2023-01-31T22:23:07.080Z
 tags: performance cachyos x86-64-v3 arch cacule
