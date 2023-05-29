@@ -12,56 +12,30 @@ export const SITE_DEFAULT_OG_IMAGE = ""
 export const SIDEBAR_ITEMS = {
   "Introduction to CachyOS": [
     "/docs/home",
-  ],
-  "Features and improvements": [
     "/docs/features",
-  ],
-  "How to install CachyOS": [
     "/docs/install-cachyos",
-  ],
-  "How does CachyOS improve the performance?": [
     "/docs/cachyos-performance",
-  ],
-  "CachyOS DE's Screenshots": [
     "/docs/screenshots",
-  ],
-  "Info about CachyOS Kernels": [
     "/docs/cachyos-kernels",
-  ],
-  "CachyOS - Kernel Manager": [
     "/docs/kernel-manager",
-  ],
-  "Nvidia - Dual GPU Setup for Laptop": [
     "/docs/notebooks",
-  ],
-  "CachyOS Repo | How to": [
     "/docs/repo",
   ],
-  "Things to do after installation": [
+  "First Steps": [
     "/docs/first-steps",
   ],
-  "General System Tweaks": [
+  "General Information": [
     "/docs/general-system-tweaks",
-  ],
-  "Linux Gaming": [
     "/docs/gaming",
-  ],
-  "FAQ": [
     "/docs/faq",
   ],
-  "Download information": [
+  "Download": [
     "/docs/download",
-  ],
-  "Download ISO": [
     "https://sourceforge.net/projects/cachyos-arch/files/",
   ],
-  "GUI installer": [
+  "Changelog": [
     "/docs/changelog",
   ],
-  "Forum": [
-    "https://forum.cachyos.org/",
-  ],
-  "GitHub": [
-    "https://github.com/CachyOS",
+  "Be Connected": [
   ],
 }
