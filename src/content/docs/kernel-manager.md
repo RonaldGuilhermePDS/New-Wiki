@@ -18,7 +18,7 @@ The CachyOS Kernel Manager makes it simple to install kernels and also provides 
 To install a kernel, simply launch the CachyOS Kernel Manager application and choose the desired kernel from a list of available options.
 Then, simply click the "execute" button to complete the installation.
 
-![cachyos-km1.png](/src/content/docs/Images/cachyos-km1.png)
+![cachyos-km1.png](/Images/cachyos-km1.png)
 
 ## Configuring and Building a Kernel
 
@@ -47,4 +47,4 @@ Available configuration options include:
 
 Upon completion, the built kernel will automatically be installed and the package can be found in $HOME/.cache/cachyos-km.
 
-![cachyos-km2.png](/src/content/docs/Images/cachyos-km2.png)
+![cachyos-km2.png](/Images/cachyos-km2.png)
