@@ -1,13 +1,38 @@
 ---
-title: CachyOS GUI Installer Changelog
+title: GUI Installer Changelog
 description: Changelog for the CachyOS GUI Installer
 published: 1
-date: 2023-03-29T20:22:07.341Z
+date: 2023-05-29T12:01:10.632Z
 tags: cachyos, changelog, clamares, gui-installer, linux-cachyos
 editor: markdown
 dateCreated: 2023-01-21T19:28:01.996Z
 icon: grommet-icons:form-next
 ---
+
+# 23.05
+
+**Features:**
+- CachyOS Git Migration layout is now reflected in the installation
+- chwd (mhwd) got multiple fixes
+- Pacman: We added a feature, which makes it possible to provide a message to our users before updating
+- Calamares got synced with upstream
+- Package updates: linux-cachyos 6.3.4, cachy-browser 113.0.1, mesa 23.1.1, python 3.11
+
+**Bug-fixes:**
+- netinstall: minimal fixes due package changes
+- Slides: Slide 6 got updated to reflect the lastest chang
+
+# 23.04
+
+**Features:**
+
+- Introduce the Qtile desktop enviroment
+- Reworked mhwd: Rust rewrite; Simplified profiles for GPUs and network cards; Removed bunch of ancient code
+- Package updates: linux-cachyos 6.2.12, cachy-browser 112.0.1, mesa 23.0.3, zfs-utils 2.1.11
+
+**Bug-fixes:**
+
+- f2fs: Remove "atgc" mount options since it has issues with systemd
 
 # 23.03.1
 
@@ -20,6 +45,7 @@ icon: grommet-icons:form-next
 - Calamares got fixed with the lightdm displaymanager due faulty calamares upstream commits
 - Offline installation keyring issue got fixed
 - Refind: Use linux-cachyos-lts as defaullt. Current 6.2 seems not to work well together with refind
+
 
 # 23.03
 
@@ -46,7 +72,6 @@ icon: grommet-icons:form-next
 - You can download the update from our mirrors on SourceForge.
 
 # 23.02
-
 **New Features:**
 
 - The cachyos-community-v3 repo has been added
@@ -61,6 +86,7 @@ icon: grommet-icons:form-next
 - cachyos-rate-mirrors has a longer fetch-mirrors-timeout
 - Github has been added to the hosts to avoid mirrorlist issues
 - Boot entries for BIOS have been updated in syslinux
+
 
 # 23.01
 
@@ -82,6 +108,7 @@ icon: grommet-icons:form-next
 - The ranked cachyos mirrors gets now correctly copied to the install target
 - power-profile-daemon don't gets enabled anymore as default
 
+
 # 22.12
 
 **Features:**
@@ -96,12 +123,14 @@ icon: grommet-icons:form-next
 - The Kofuku Desktop Enviroment got removed
 - extra ISO with llvm 15 included to provide support for newer AMD Cards
 
+
 **Bug-fixes:**
 
 - Calamares got fixed when using GNOME as ISO
 - zfshostid does now work proper for the offline and online installation
 - Add "kms" hook to the initcpiocfg module to follow archlinux defaults
 - And more ISO fixes
+
 
 # 22.11
 
@@ -117,12 +146,14 @@ icon: grommet-icons:form-next
 - Common package upgrades (mesa, kernel, ...)
 - Replace systemd-network with networkmanager
 
+
 **Bug-fixes:**
 
 - qemu-quest-agent.service got removed from the ISO
 - copytoram got completly disabled, it breaks the offline installation
 - mkinitcpio.conf got updated
 - And more ISO fixes
+
 
 # 22.10
 
@@ -144,6 +175,7 @@ icon: grommet-icons:form-next
 - Added a fallback bootmode, which does not set any modeset (nomodeset)
 - And more ISO fixes
 
+
 # 22.09
 
 **Features:**
@@ -161,6 +193,7 @@ icon: grommet-icons:form-next
 - netinstall packages has been updated and got some fixes
 - OpenBox installation has been fixed
 - usual translation fixes
+
 
 # 22.07
 
@@ -183,7 +216,7 @@ icon: grommet-icons:form-next
 - btrfs swap luksencryption got fixed
 - usual translation fixes
 
-# 22.06
+ # 22.06
 
 Following known bugs has been fixed:
 
@@ -220,6 +253,7 @@ Following options you can select for a kernel compile:
 - Disable debug (it lowers the size of the kernel)
 - Enable or disable nf cone
 - Enable LTO (Full, Thin, No)
+
 
 # 22.05
 

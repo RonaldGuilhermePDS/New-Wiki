@@ -1,5 +1,5 @@
 ---
-title: Screenshots
+title: CachyOS DE's Screenshots
 description: Some screenshots of CachyOS
 published: 1
 date: 2023-03-04T15:37:05.504Z

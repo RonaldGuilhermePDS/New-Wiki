@@ -14,9 +14,9 @@ icon: heroicons-solid:home
 If you choose to use the ZFS Filesystem, you need to select at the online installation two things:
 
 ![zfs1.png](/Images/zfs1.png)
-
 ## At the online install selections select the "cachyos-zfs" package:
 
-![zfs2.png](/Images/Images/zfs2.png)
+![zfs2.png](/Images/zfs2.png)
+
 
 ## Thats it, now let the install running :)
