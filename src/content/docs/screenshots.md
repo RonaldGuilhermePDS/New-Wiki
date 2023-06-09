@@ -6,6 +6,7 @@ date: 2023-03-04T15:37:05.504Z
 tags: ''
 editor: markdown
 dateCreated: 2021-07-04T03:23:21.056Z
+icon: material-symbols:image-rounded
 ---
 
 # CachyOS DE's Screenshots

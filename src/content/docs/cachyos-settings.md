@@ -6,6 +6,7 @@ date: 2022-10-23T13:32:34.763Z
 tags: cachy, cachyos
 editor: markdown
 dateCreated: 2022-08-06T21:30:59.973Z
+icon: heroicons-solid:home
 ---
 
 # CachyOS Settings

@@ -9,6 +9,7 @@ const docs = defineCollection({
     tags: z.string().optional(),
     editor: z.string(),
     dateCreated: z.date(),
+    icon: z.string(),
   }),
 });
 

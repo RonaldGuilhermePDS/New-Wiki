@@ -6,6 +6,7 @@ date: 2023-03-14T17:50:49.551Z
 tags: cachyos, calamares, cli-installer, gui-installer, install-cachyos
 editor: markdown
 dateCreated: 2022-11-17T13:07:22.546Z
+icon: grommet-icons:form-next
 ---
 
 # Installing CachyOS

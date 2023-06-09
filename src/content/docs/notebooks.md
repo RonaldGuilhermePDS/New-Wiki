@@ -6,6 +6,7 @@ date: 2023-03-06T13:58:47.627Z
 tags: laptop, notebook, nvidia
 editor: markdown
 dateCreated: 2021-07-04T00:59:16.282Z
+icon: bi:gpu-card
 ---
 
 # Optimus Manager

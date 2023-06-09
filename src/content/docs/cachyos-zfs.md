@@ -6,6 +6,7 @@ date: 2022-06-03T09:42:40.323Z
 tags: ''
 editor: markdown
 dateCreated: 2022-05-20T15:36:33.024Z
+icon: heroicons-solid:home
 ---
 
 # CachyOS Calamares GUI Installation

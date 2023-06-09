@@ -6,6 +6,7 @@ date: 2023-01-31T15:19:44.978Z
 tags: cachyos-kernel, kernel, kernel-manager
 editor: markdown
 dateCreated: 2022-06-03T11:16:11.181Z
+icon: grommet-icons:form-next
 ---
 
 # CachyOS Kernel Manager

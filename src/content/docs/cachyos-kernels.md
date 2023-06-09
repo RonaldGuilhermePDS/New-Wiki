@@ -6,6 +6,7 @@ date: 2023-04-02T14:53:19.862Z
 tags: cachyos, kernel, performance
 editor: markdown
 dateCreated: 2021-11-25T07:07:09.929Z
+icon: grommet-icons:form-next
 ---
 
   <br/>

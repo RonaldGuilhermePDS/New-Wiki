@@ -6,6 +6,7 @@ date: 2023-01-29T14:22:45.053Z
 tags: arch, arch linux, archlinux, cachy, cachyos, cacule, cpu scheduler, gnu, linux
 editor: markdown
 dateCreated: 2021-07-04T01:32:08.787Z
+icon: heroicons-solid:home
 ---
 
 # What is CachyOS ?

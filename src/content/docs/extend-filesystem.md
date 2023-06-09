@@ -6,6 +6,7 @@ date: 2022-01-13T14:38:27.308Z
 tags: filesystem, storage
 editor: ckeditor
 dateCreated: 2022-01-11T18:15:31.243Z
+icon: heroicons-solid:home
 ---
 
 ## **Prerequisits**

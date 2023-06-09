@@ -6,6 +6,7 @@ date: 2023-01-31T22:23:07.080Z
 tags: performance cachyos x86-64-v3 arch cacule
 editor: markdown
 dateCreated: 2021-10-04T07:59:10.433Z
+icon: grommet-icons:form-next
 ---
 
 # Linux Kernel with BORE scheduler is the default choice

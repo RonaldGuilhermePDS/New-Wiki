@@ -31,7 +31,6 @@ export const SIDEBAR_ITEMS = {
   ],
   "Download": [
     "/docs/download",
-    "https://sourceforge.net/projects/cachyos-arch/files/",
   ],
   "Changelog": [
     "/docs/changelog",

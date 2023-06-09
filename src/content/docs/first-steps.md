@@ -6,6 +6,7 @@ date: 2023-01-31T18:19:52.614Z
 tags: ''
 editor: markdown
 dateCreated: 2021-08-11T06:07:58.712Z
+icon: icon-park-solid:correct
 ---
 
 ## 1\. Update your system:

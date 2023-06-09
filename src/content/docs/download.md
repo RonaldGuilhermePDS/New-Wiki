@@ -6,6 +6,7 @@ date: 2023-04-02T22:31:37.934Z
 tags: dowloading, download, install, installation, installing, iso
 editor: markdown
 dateCreated: 2021-07-04T01:43:25.246Z
+icon: ic:round-file-download
 ---
 
 CachyOS can be installed using two types of installers: GUI Installer and CLI Installer.

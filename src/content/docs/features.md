@@ -6,9 +6,10 @@ date: 2023-01-30T18:17:39.160Z
 tags: best, better, feature, features, info, information, why
 editor: markdown
 dateCreated: 2021-07-04T02:28:46.352Z
+icon: foundation:results
 ---
 
-# CachyOS: x86-64-v3 Microarchitecture Optimization
+# 
 
 CachyOS is committed to delivering high-performance computing to its users. Our installer detects your machine's microarchitecture and uses optimized packages for x86-64-v3 systems, providing a significant performance improvement of more than 10%.
 

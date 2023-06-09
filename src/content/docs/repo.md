@@ -6,6 +6,7 @@ date: 2023-03-12T14:05:16.888Z
 tags: arch linux, cachyos, repo, x86_64-v3
 editor: markdown
 dateCreated: 2021-08-18T15:06:49.466Z
+icon: grommet-icons:form-next
 ---
 
 # Option 1: Automated Installation cachyos repositories

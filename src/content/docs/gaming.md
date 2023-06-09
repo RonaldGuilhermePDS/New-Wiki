@@ -6,6 +6,7 @@ date: 2023-02-20T19:51:52.047Z
 tags: ''
 editor: markdown
 dateCreated: 2023-01-16T19:09:36.842Z
+icon: grommet-icons:form-next
 ---
 
 # Gaming on CachyOS

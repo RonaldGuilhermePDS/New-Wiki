@@ -6,6 +6,7 @@ date: 2023-03-29T20:22:07.341Z
 tags: cachyos, changelog, clamares, gui-installer, linux-cachyos
 editor: markdown
 dateCreated: 2023-01-21T19:28:01.996Z
+icon: grommet-icons:form-next
 ---
 
 # 23.03.1
